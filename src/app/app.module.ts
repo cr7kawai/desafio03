@@ -12,6 +12,7 @@ import { ProductComponent } from './product/product.component';
 import {DialogModule} from 'primeng/dialog';
 import { CartComponent } from './cart/cart.component';
 import {ToastModule} from 'primeng/toast';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import {ToastModule} from 'primeng/toast';
     BrowserModule,
     BrowserAnimationsModule,
     DialogModule,
-    ToastModule
+    ToastModule, 
+    HttpClientModule
   ],
   declarations: [
     AppComponent,

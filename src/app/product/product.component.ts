@@ -23,7 +23,7 @@ export class ProductComponent {
     this.primengConfig.ripple = true;
   }
 
-  products = [...products];
+  Products = [...products];
   @Input() product!:Product;
 
   share() {
